@@ -31,19 +31,19 @@ export default function Nav() {
 
         <div className="hidden lg:flex lg:gap-x-12">
           <a
-            href="#"
+            href="#about"
             className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold"
           >
             About
           </a>
           <a
-            href="#"
+            href="#project"
             className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold"
           >
             Project
           </a>
           <a
-            href="#"
+            href="#organizers"
             className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold"
           >
             Organizers
@@ -66,7 +66,7 @@ export default function Nav() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-11" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-1/2 overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-end">
             <button
               type="button"

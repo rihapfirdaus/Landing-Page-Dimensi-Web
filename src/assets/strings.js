@@ -3,9 +3,11 @@ export const subtitle =
   "Badan Semi Otonom (BSO) HIMATIF UIN Sunan Gunung Djati Bandung";
 export const alamat = "Jl. A.H. Nasution No.105, Cibiru";
 
-export const sosmed = [
+export const email = [
   { email1: "dimensiweb@uinsgd.ac.id" },
   { email2: "dimensiwebhimatif@gmail.com" },
+];
+export const sosmed = [
   { label: "Instagram", link: "#" },
   { label: "Twitter", link: "#" },
   { label: "Youtube", link: "#" },
@@ -81,5 +83,4 @@ export const navFooter = [
   },
 ];
 
-export const copyright =
-  "&copy; 2023 Dimensi Web UIN Sunan Gunung Djati Bandung";
+export const copyright = "2023 Dimensi Web UIN Sunan Gunung Djati Bandung";

@@ -15,7 +15,7 @@ import {
 export default () => {
   return (
     <>
-      <div className="">
+      <div id="about">
         <div className="relative isolate flex flex-col my-12 lg:flex-row justify-center items-center">
           <div className="flex justify-center lg:w-1/3">
             <img src="logo.svg" alt="logo dimensi web" />
@@ -27,7 +27,9 @@ export default () => {
         </div>
       </div>
       <div className="relative isolate my-12">
-        <Heading2 center>{headingVisiMisi}</Heading2>
+        <Heading2 center className="mb-8">
+          {headingVisiMisi}
+        </Heading2>
         <div className=" flex flex-col justify-center lg:justify-normal lg:flex-row">
           <div
             className="p-6 m-4 lg:w-1/2"

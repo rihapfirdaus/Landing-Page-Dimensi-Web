@@ -4,8 +4,10 @@ import Heading2 from "./Typography/Heading2";
 
 export default () => {
   return (
-    <>
-      <Heading2 center>TIMELINE</Heading2>
+    <div>
+      <Heading2 center className="mt-16">
+        TIMELINE
+      </Heading2>
       <Heading3 center className="my-10">
         PAST GENERATION
       </Heading3>
@@ -40,7 +42,7 @@ export default () => {
       <Heading3 center className="my-10">
         NEXT GENERATION
       </Heading3>
-    </>
+    </div>
   );
 };
 

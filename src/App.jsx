@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 
-export default function Example() {
+export default () => {
   return (
     <>
       <Nav />
@@ -12,4 +12,4 @@ export default function Example() {
       <Footer />
     </>
   );
-}
+};

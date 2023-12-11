@@ -5,6 +5,7 @@ import {
   alamat,
   buttonJoin,
   copyright,
+  email,
   footer,
   navFooter,
   sosmed,
@@ -32,8 +33,8 @@ export default function FooterComp() {
             </a>
             <ul className="mt-4 leading-10">
               <li>{alamat}</li>
-              <li>{sosmed.email1}</li>
-              <li>{sosmed.email2}</li>
+              <li>dimensiweb@uinsgd.ac.id</li>
+              <li>dimensiwebhimatif@gmail.com</li>
             </ul>
           </div>
           <div className="flex justify-between mt-12 md:mt-0">
@@ -70,7 +71,7 @@ export default function FooterComp() {
         </div>
         <Divider variant="middle" className="py-4" />
         <div className="flex flex-col justify-between text-sm">
-          <p>{copyright}</p>
+          <p>&copy;{copyright}</p>
           <a href="#">Terms & Conditions</a>
         </div>
       </div>
