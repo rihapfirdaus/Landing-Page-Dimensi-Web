@@ -14,7 +14,6 @@ export default () => {
     slidesToScroll: 1,
     infinite: true,
     autoplaySpeed: 2000,
-    centerMode: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -34,12 +33,14 @@ export default () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
+          centerMode: true,
         },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
+          centerMode: true,
         },
       },
     ],
