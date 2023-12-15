@@ -37,7 +37,7 @@ export default function FooterComp() {
               <li>dimensiwebhimatif@gmail.com</li>
             </ul>
           </div>
-          <div className="flex justify-between mt-12 md:mt-0">
+          <div className="justify-between mt-12 md:mt-0 hidden lg:flex">
             <div className="md:mr-4">
               <h3 className="font-bold text-lg">MENU</h3>
               <ul className="leading-10">

@@ -35,24 +35,32 @@ export default () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
+          arrows: false,
+          dots: false,
         },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
+          centerMode: true,
+          arrows: false,
+          dots: false,
         },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
+          centerMode: true,
+          arrows: false,
+          dots: false,
         },
       },
     ],
   };
   return (
-    <div id="project" className="scroll-mt-28 relative isolate mt-12 mb-32">
+    <div id="project" className="scroll-mt-28 relative isolate my-12">
       <div className="mt-12 mb-4 flex justify-between items-center">
         <div className="ml-8">
           <Heading2>PROJECTS</Heading2>

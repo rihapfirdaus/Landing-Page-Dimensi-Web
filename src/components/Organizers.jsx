@@ -27,6 +27,8 @@ export default () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
+          arrows: false,
+          dots: false,
         },
       },
       {
@@ -34,6 +36,8 @@ export default () => {
         settings: {
           slidesToShow: 1,
           centerMode: true,
+          arrows: false,
+          dots: false,
         },
       },
       {
@@ -41,6 +45,8 @@ export default () => {
         settings: {
           slidesToShow: 1,
           centerMode: true,
+          arrows: false,
+          dots: false,
         },
       },
     ],
@@ -50,7 +56,7 @@ export default () => {
       <Heading2 center className="mt-16 mb-8">
         ORGANIZERS
       </Heading2>
-      <Slider {...settings}>
+      <Slider {...settings} sty>
         {organizers.map((organizer, index) => (
           <div className="relative px-4" key={index}>
             <img
