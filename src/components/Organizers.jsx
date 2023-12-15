@@ -46,7 +46,7 @@ export default () => {
     ],
   };
   return (
-    <div id="organizers" className="relative isolate my-12">
+    <div id="organizers" className="scroll-mt-32 relative isolate my-12">
       <Heading2 center className="mt-16 mb-8">
         ORGANIZERS
       </Heading2>
@@ -54,9 +54,9 @@ export default () => {
         {organizers.map((organizer, index) => (
           <div className="relative px-4" key={index}>
             <img
-              src={organizer.photoProfile ? organizer.photoProfile : "user.svg"}
+              src={organizer.photoProfile || "user.svg"}
               alt="photo profile"
-              className="w-96 rounded-3xl"
+              className="object-cover w-80 h-96 rounded-3xl"
             />
             <div className="absolute text-white bottom-5 left-0 bg-slate-800/50 px-8">
               <h3 className="font-bold text-md  xl:text-xl">

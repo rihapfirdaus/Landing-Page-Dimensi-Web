@@ -52,7 +52,7 @@ export default () => {
     ],
   };
   return (
-    <div id="project" className="relative isolate mt-12 mb-32">
+    <div id="project" className="scroll-mt-28 relative isolate mt-12 mb-32">
       <div className="mt-12 mb-4 flex justify-between items-center">
         <div className="ml-8">
           <Heading2>PROJECTS</Heading2>

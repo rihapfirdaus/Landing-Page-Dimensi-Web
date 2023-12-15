@@ -15,7 +15,7 @@ import {
 export default () => {
   return (
     <>
-      <div id="about">
+      <div id="about" className="scroll-mt-32">
         <div className="relative isolate flex flex-col my-12 lg:flex-row justify-center items-center">
           <div className="flex justify-center lg:w-1/3">
             <img src="logo.svg" alt="logo dimensi web" />

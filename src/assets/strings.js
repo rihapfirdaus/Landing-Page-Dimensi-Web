@@ -17,27 +17,27 @@ export const organizers = [
   {
     name: "Raden Ibnu Huygenz Widodo",
     position: "Ketua BSO Dimensi Web",
-    photoProfile: "orang.png",
+    photoProfile: "Raden.png",
   },
   {
     name: "Rifqi Syekhi Marsaputra",
     position: "Sekretaris BSO Dimensi Web",
-    photoProfile: "orang.png",
+    photoProfile: "Raden.png",
   },
   {
     name: "Ridwan Ahmad Fauzan",
     position: "Bendahara BSO Dimensi Web",
-    photoProfile: "orang.png",
+    photoProfile: "Ridwan.png",
   },
   {
     name: "Muhammad Rihap Firdaus",
     position: "Instruktur 1",
-    photoProfile: "orang.png",
+    photoProfile: "Rihap.png",
   },
   {
-    name: "Danny",
+    name: "Danny Suggi Saputra",
     position: "Instruktur 2",
-    photoProfile: "orang.png",
+    photoProfile: "Danny.png",
   },
 ];
 
