@@ -13,7 +13,7 @@ export default () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
-    autoplaySpeed: 2000,
+    dots: false,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -28,7 +28,6 @@ export default () => {
         settings: {
           slidesToShow: 2,
           arrows: false,
-          dots: false,
         },
       },
       {
@@ -37,7 +36,6 @@ export default () => {
           slidesToShow: 1,
           centerMode: true,
           arrows: false,
-          dots: false,
         },
       },
       {
@@ -46,7 +44,6 @@ export default () => {
           slidesToShow: 1,
           centerMode: true,
           arrows: false,
-          dots: false,
         },
       },
     ],

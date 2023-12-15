@@ -24,6 +24,7 @@ export default () => {
     centerMode: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    dots: false,
     responsive: [
       {
         breakpoint: 1080,
@@ -36,7 +37,6 @@ export default () => {
         settings: {
           slidesToShow: 2,
           arrows: false,
-          dots: false,
         },
       },
       {
@@ -45,7 +45,6 @@ export default () => {
           slidesToShow: 1,
           centerMode: true,
           arrows: false,
-          dots: false,
         },
       },
       {
@@ -54,7 +53,6 @@ export default () => {
           slidesToShow: 1,
           centerMode: true,
           arrows: false,
-          dots: false,
         },
       },
     ],
@@ -68,12 +66,14 @@ export default () => {
         </div>
       </div>
       <Slider {...settings}>
-        {items.map((item) => (
+        {items.map((item, index) => (
           <div key={item.id} className="mx-2 px-4">
             <img src="project.svg" alt="project" />
             <div className="">
-              <h3 className="font-bold text-xl my-2">ini h3</h3>
-              <p className="my-2">ini p</p>
+              <h3 className="font-bold text-xl my-2">{`project ${
+                index + 1
+              }`}</h3>
+              <p className="my-2">{`deskripsi ${index + 1}`}</p>
             </div>
           </div>
         ))}

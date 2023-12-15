@@ -14,10 +14,16 @@ export default function FooterComp() {
   return (
     <footer style={{ background: "#50D890" }}>
       <div className="text-center py-12">
-        <Heading3 center>{footer}</Heading3>
-        <button className="bg-white px-12 py-2 m-6 text-lg rounded-full">
-          {buttonJoin}
-        </button>
+        <Heading3 center className="mb-12">
+          {footer}
+        </Heading3>
+        <a
+          href="https://register-dw.vercel.app/"
+          target="_blank"
+          className="bg-white px-12 py-4 text-lg rounded-full"
+        >
+          JOIN US
+        </a>
       </div>
       <div
         className="bg-white px-6 pt-6 pb-4 lg:px-16 lg:pt-16 lg:pb-12 xl:px-24 xl:pt-24"

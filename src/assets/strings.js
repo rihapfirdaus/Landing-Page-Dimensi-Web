@@ -22,7 +22,7 @@ export const organizers = [
   {
     name: "Rifqi Syekhi Marsaputra",
     position: "Sekretaris BSO Dimensi Web",
-    photoProfile: "Raden.png",
+    photoProfile: "Sakeh.png",
   },
   {
     name: "Ridwan Ahmad Fauzan",
@@ -67,15 +67,15 @@ export const navFooter = [
   },
   {
     label: "About",
-    to: "#",
+    to: "#about",
   },
   {
     label: "Projects",
-    to: "#",
+    to: "#project",
   },
   {
     label: "Organizers",
-    to: "#",
+    to: "#organizers",
   },
   {
     label: "Join Us",

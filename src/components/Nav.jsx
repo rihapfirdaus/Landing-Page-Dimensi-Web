@@ -38,7 +38,8 @@ export default function Nav() {
 
         <div className=" lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="#"
+            target="_blank"
+            href="https://register-dw.vercel.app/"
             className="text-lg font-extrabold leading-6 tracking-wider py-2 px-4 text-white  bg-gray-800 rounded-lg hover:translate-y-0.5"
           >
             Join Us
