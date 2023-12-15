@@ -1,11 +1,7 @@
-import React, { useState } from "react";
-import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import React from "react";
 import { title } from "../assets/strings";
 
 export default function Nav() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <header className="fixed z-10 right-0 left-0 top-0 bg-white">
       <nav

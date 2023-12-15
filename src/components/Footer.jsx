@@ -5,10 +5,8 @@ import {
   alamat,
   buttonJoin,
   copyright,
-  email,
   footer,
   navFooter,
-  sosmed,
   title,
 } from "../assets/strings";
 
