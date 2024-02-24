@@ -4,44 +4,51 @@ import Heading2 from "./Typography/Heading2";
 
 export default () => {
   return (
-    <div>
-      <Heading2 center className="mt-16">
-        TIMELINE
-      </Heading2>
-      <Heading3 center className="my-10">
-        PAST GENERATION
-      </Heading3>
-      <div className="relative flex justify-center" style={{ height: "50rem" }}>
-        <div className="h-full w-2 bg-black"></div>
-        {timelines.map((timeline, index) => (
-          <div key={index}>
-            <div
-              className="absolute bg-green-700 w-6 h-6 rounded-full border-4 border-black left-1/2 -translate-x-1/2 -translate-y-1/2"
-              style={{ top: (index + 1) * 9 + "rem" }}
-            ></div>
-            <div
-              className={`absolute ${
-                index % 2 === 0 ? "left-2/4 pl-10" : "text-end right-2/4 pr-10"
-              } max-w-md xl:max-w-xl`}
-              style={{ top: (index + 1) * 9 - 1.5 + "rem" }}
-            >
-              <Heading3>{timeline.title}</Heading3>
-              <p className="text-gray-500 lg:text-xl lg:font-mono">
-                {timeline.periode}
-              </p>
-              <div className="mt-3">
-                <p className="lg:text-xl">{timeline.details}</p>
-                <p className="font-extrabold text-green-500 lg:text-xl">
-                  {`Output : ${timeline.output}`}
+    <div className="relative scroll-mt-28 isolate my-12" id="timeline">
+      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+        <Heading2 center className="mt-16">
+          TIMELINE
+        </Heading2>
+        <Heading3 center className="my-10">
+          PAST GENERATION
+        </Heading3>
+        <div
+          className="relative flex justify-center"
+          style={{ height: "50rem" }}
+        >
+          <div className="h-full w-2 bg-black"></div>
+          {timelines.map((timeline, index) => (
+            <div key={index}>
+              <div
+                className="absolute bg-green-700 w-6 h-6 rounded-full border-4 border-black left-1/2 -translate-x-1/2 -translate-y-1/2"
+                style={{ top: (index + 1) * 9 + "rem" }}
+              ></div>
+              <div
+                className={`absolute ${
+                  index % 2 === 0
+                    ? "left-2/4 pl-10"
+                    : "text-end right-2/4 pr-10"
+                } max-w-md xl:max-w-xl`}
+                style={{ top: (index + 1) * 9 - 1.5 + "rem" }}
+              >
+                <Heading3>{timeline.title}</Heading3>
+                <p className="text-gray-500 lg:text-xl lg:font-mono">
+                  {timeline.periode}
                 </p>
+                <div className="mt-3">
+                  <p className="lg:text-xl">{timeline.details}</p>
+                  <p className="font-extrabold text-green-500 lg:text-xl">
+                    {`Output : ${timeline.output}`}
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        <Heading3 center className="my-10">
+          NEXT GENERATION
+        </Heading3>
       </div>
-      <Heading3 center className="my-10">
-        NEXT GENERATION
-      </Heading3>
     </div>
   );
 };

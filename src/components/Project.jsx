@@ -59,25 +59,29 @@ export default () => {
   };
   return (
     <div id="project" className="scroll-mt-28 relative isolate my-12">
-      <div className="mt-12 mb-4 flex justify-between items-center">
-        <div className="ml-8">
-          <Heading2>PROJECTS</Heading2>
-          <p className="">Project-project kami</p>
-        </div>
-      </div>
-      <Slider {...settings}>
-        {items.map((item, index) => (
-          <div key={item.id} className="mx-2 px-4">
-            <img src="project.svg" alt="project" />
-            <div className="">
-              <h3 className="font-bold text-xl my-2">{`project ${
-                index + 1
-              }`}</h3>
-              <p className="my-2">{`deskripsi ${index + 1}`}</p>
-            </div>
+      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+        <div className="mt-12 mb-4 flex justify-between items-center">
+          <div className="ml-8">
+            <Heading2>PROJECTS</Heading2>
+            <p>Project-project kami</p>
           </div>
-        ))}
-      </Slider>
+        </div>
+        <Slider {...settings}>
+          {items.map((item, index) => (
+            <div key={item.id} className="mx-2 px-4">
+              <img
+                src="https://github.com/rihapfirdaus/Landing-Page-Dimensi-Web/blob/main/public/img-not-found.png?raw=true"
+                alt="project"
+                className="rounded-lg"
+              />
+              <div className="">
+                <h3 className="font-bold text-xl my-2">Coming soon...</h3>
+                <p className="my-2">Stay tuned for our cool projects!!</p>
+              </div>
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };

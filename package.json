@@ -18,6 +18,7 @@
     "@mui/icons-material": "^5.14.19",
     "@mui/material": "^5.14.20",
     "@mui/system": "^5.14.20",
+    "aos": "^2.3.4",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-scroll": "^1.9.0",

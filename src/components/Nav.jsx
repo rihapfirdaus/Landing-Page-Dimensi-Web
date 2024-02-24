@@ -18,19 +18,34 @@ export default function Nav() {
         <div className="hidden lg:flex lg:gap-x-12">
           <a
             href="#about"
-            className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold"
+            className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold hover:underline"
           >
             About
           </a>
+
+          <a
+            href="#vision"
+            className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold hover:underline"
+          >
+            Vision
+          </a>
+
+          <a
+            href="#timeline"
+            className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold hover:underline"
+          >
+            Timeline
+          </a>
+
           <a
             href="#organizers"
-            className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold"
+            className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold hover:underline"
           >
             Organizers
           </a>
           <a
             href="#project"
-            className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold"
+            className="text-lg font-semibold leading-6 py-2 px-4 text-gray-900 hover:font-extrabold hover:underline"
           >
             Project
           </a>

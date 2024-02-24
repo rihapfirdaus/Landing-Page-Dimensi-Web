@@ -70,6 +70,14 @@ export const navFooter = [
     to: "#about",
   },
   {
+    label: "Vision",
+    to: "#vision",
+  },
+  {
+    label: "Timeline",
+    to: "#timeline",
+  },
+  {
     label: "Projects",
     to: "#project",
   },
@@ -79,8 +87,8 @@ export const navFooter = [
   },
   {
     label: "Join Us",
-    to: "#",
+    to: "https://register-dw.vercel.app",
   },
 ];
 
-export const copyright = "2023 Dimensi Web UIN Sunan Gunung Djati Bandung";
+export const copyright = "2024 Dimensi Web UIN Sunan Gunung Djati Bandung";

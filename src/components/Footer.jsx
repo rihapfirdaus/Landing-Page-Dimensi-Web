@@ -12,8 +12,18 @@ import {
 
 export default function FooterComp() {
   return (
-    <footer style={{ background: "#50D890" }}>
-      <div className="text-center py-12">
+    <footer
+      style={{ background: "#50D890" }}
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-delay="200"
+    >
+      <div
+        className="text-center py-12"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-delay="400"
+      >
         <Heading3 center className="mb-12">
           {footer}
         </Heading3>
@@ -47,7 +57,11 @@ export default function FooterComp() {
               <ul className="leading-10">
                 {navFooter.map((nav, index) => (
                   <li>
-                    <a key={index} href={nav.to || "#"}>
+                    <a
+                      key={index}
+                      href={nav.to || "#"}
+                      className="hover:underline"
+                    >
                       {nav.label}
                     </a>
                   </li>
@@ -61,13 +75,31 @@ export default function FooterComp() {
               <h3 className="font-bold text-lg">SOCIAL</h3>
               <ul className="leading-10">
                 <li>
-                  <a href="">INSTAGRAM</a>
+                  <a
+                    href="https://www.instagram.com/dimensi.web/"
+                    target="_blank"
+                    className="hover:underline"
+                  >
+                    INSTAGRAM
+                  </a>
                 </li>
                 <li>
-                  <a href="">TWITTER</a>
+                  <a
+                    href="https://www.youtube.com/@dimensiwebuinbandung9623"
+                    target="_blank"
+                    className="hover:underline"
+                  >
+                    YOUTUBE
+                  </a>
                 </li>
                 <li>
-                  <a href="">YOUTUBE</a>
+                  <a
+                    href="https://www.linkedin.com/company/dimensi-web/"
+                    target="_blank"
+                    className="hover:underline"
+                  >
+                    LINKEDIN
+                  </a>
                 </li>
               </ul>
             </div>

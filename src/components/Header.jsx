@@ -13,6 +13,7 @@ export default function Header() {
         backgroundPosition: "center",
         borderRadius: "24px",
       }}
+      data-aos="zoom-in"
     >
       <div className="mx-auto py-24 sm:py-48 lg:py-80 px-8">
         <div className="text-center">

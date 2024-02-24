@@ -49,27 +49,29 @@ export default () => {
     ],
   };
   return (
-    <div id="organizers" className="scroll-mt-32 relative isolate my-12">
-      <Heading2 center className="mt-16 mb-8">
-        ORGANIZERS
-      </Heading2>
-      <Slider {...settings} sty>
-        {organizers.map((organizer, index) => (
-          <div className="relative px-4" key={index}>
-            <img
-              src={organizer.photoProfile || "user.svg"}
-              alt="photo profile"
-              className="object-cover w-80 h-96 rounded-3xl"
-            />
-            <div className="absolute text-white bottom-5 left-0 bg-slate-800/50 px-8">
-              <h3 className="font-bold text-md  xl:text-xl">
-                {organizer.name}
-              </h3>
-              <p>{organizer.position}</p>
+    <div id="organizers" className="scroll-mt-32 relative isolate my-12 ">
+      <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+        <Heading2 center className="mt-16 mb-8">
+          ORGANIZERS
+        </Heading2>
+        <Slider {...settings} sty>
+          {organizers.map((organizer, index) => (
+            <div className="relative px-4" key={index}>
+              <img
+                src={organizer.photoProfile || "user.svg"}
+                alt="photo profile"
+                className="object-cover w-80 h-96 rounded-3xl"
+              />
+              <div className="absolute text-white bottom-5 left-0 bg-slate-800/50 px-8">
+                <h3 className="font-bold text-md  xl:text-xl">
+                  {organizer.name}
+                </h3>
+                <p>{organizer.position}</p>
+              </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };
