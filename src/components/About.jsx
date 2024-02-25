@@ -15,7 +15,7 @@ export default () => {
         >
           <div className="flex justify-center lg:w-1/3">
             <img
-              src="logo.svg"
+              src="logo.png"
               alt="logo dimensi web"
               style={{
                 filter: "drop-shadow(0 0 2em #61dafbaa)",

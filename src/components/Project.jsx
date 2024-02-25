@@ -70,7 +70,7 @@ export default () => {
           {items.map((item, index) => (
             <div key={item.id} className="mx-2 px-4">
               <img
-                src="https://github.com/rihapfirdaus/Landing-Page-Dimensi-Web/blob/main/public/img-not-found.png?raw=true"
+                src="img-not-found.png"
                 alt="project"
                 className="rounded-lg"
               />
