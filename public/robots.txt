@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://dimensi-web.vercel.app/sitemap.xml

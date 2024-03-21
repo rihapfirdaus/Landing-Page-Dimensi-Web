@@ -17,7 +17,7 @@ export const organizers = [
   {
     name: "Raden Ibnu Huygenz Widodo",
     position: "Ketua BSO Dimensi Web",
-    photoProfile: "Raden.png",
+    photoProfile: "Raden.jpg",
   },
   {
     name: "Rifqi Syekhi Marsaputra",
@@ -27,7 +27,7 @@ export const organizers = [
   {
     name: "Ridwan Ahmad Fauzan",
     position: "Bendahara BSO Dimensi Web",
-    photoProfile: "Ridwan.png",
+    photoProfile: "Ridwan.jpg",
   },
   {
     name: "Muhammad Rihap Firdaus",
@@ -37,12 +37,12 @@ export const organizers = [
   {
     name: "Danny Suggi Saputra",
     position: "Instruktur 2",
-    photoProfile: "Danny.png",
+    photoProfile: "Danny.jpg",
   },
 ];
 
 export const headingAbout = "DIMENSI WEB";
-export const headingVisiMisi = "OUR VISION";
+export const headingVisiMisi = "VISI MISI KAMI";
 
 export const titleVisi = "VISI";
 export const titleMisi = "MISI";

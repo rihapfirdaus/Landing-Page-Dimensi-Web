@@ -9,9 +9,13 @@ export default function Nav() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5 flex flex-row items-center">
-            <img className="h-10 w-auto mr-2" src="logo.svg" alt="" />
-            <p className="text-xl font-bold">{title}</p>
+          <a href="/" className="-m-1.5 p-1.5 flex flex-row items-center">
+            <img
+              className="h-10 w-auto mr-2"
+              src="logo.png"
+              alt="Logo Dimensi Web"
+            />
+            <h1 className="text-xl font-bold">{title}</h1>
           </a>
         </div>
 
